@@ -1,1 +1,11 @@
 .env
+beszel/beszel_data/
+beszel/beszel_agent_data/
+beszel/beszel_socket/
+portainer/data/
+npm/letsencrypt/
+home-assistant/config/
+jellyfin/config/
+jellyfin/cache/
+pi-hole/etc-pihole/
+retrogaming/roms/
