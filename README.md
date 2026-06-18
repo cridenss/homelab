@@ -15,7 +15,6 @@ Serveur personnel auto-hébergé sous Ubuntu Server, tournant sur un ancien Mac 
 | Jellyfin | Streaming média |
 | Samba | Partage de fichiers réseau |
 | Wireshark | Analyse du trafic réseau |
-| RomM | Gestion de bibliothèque de ROMs |
 
 ## Stack technique
 
@@ -23,4 +22,3 @@ Serveur personnel auto-hébergé sous Ubuntu Server, tournant sur un ancien Mac 
 - Conteneurisation : Docker / Docker Compose
 - Configuration : YAML + variables d'environnement centralisées
 - Accès distant : SSH / VS Code Remote SSH
-- Analyse réseau : Wireshark
