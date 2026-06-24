@@ -1,0 +1,19 @@
+{
+  "meters": [
+    {
+      "prm": "NUMERO_PDL",
+      "token": "TOKEN_CONSO_API",
+      "name": "Consommation Linky",
+      "action": "sync",
+      "production": false
+    },
+    {
+      "prm": "NUMERO_PDL",
+      "token": "TOKEN_CONSO_API",
+      "name": "Production Linky",
+      "action": "sync",
+      "production": true
+    }
+  ],
+  "costs": []
+}

@@ -1,0 +1,11 @@
+services:
+  ha-linky:
+    image: ha-linky
+    env_file:
+      - /home/baptiste/docker/.env
+    environment:
+      - SUPERVISOR_TOKEN=<jeton>
+      - WS_URL=ws://<ha-ip>/api/websocket
+      - TZ=<timezone>
+    volumes:
+      - /home/baptiste/docker/ha-linky:/data

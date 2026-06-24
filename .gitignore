@@ -13,3 +13,5 @@ homepage/config/
 jellyfin/media/
 npm/data/
 wireshark/config/
+ha-linky/options.json
+tailscale/tailscale-state
