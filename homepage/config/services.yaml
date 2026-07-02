@@ -1,0 +1,53 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+- Monitoring:
+    - Portainer:
+        icon: portainer.png
+        href: http://portainer.home
+        description: Infrastructure
+        widget:
+            type: portainer
+            url: http://192.168.1.39:9000
+            env: 3
+            key: {{HOMEPAGE_VAR_PORTAINER_KEY}}
+
+    - Beszel:
+        icon: beszel.png
+        href: http://beszel.home
+        description: Système
+
+    - Nginx:
+        icon: nginx.png
+        href: http://nginx.home
+        description: Réseau
+
+    - Pi-Hole:
+        icon: pi-hole.png
+        href: http://pihole.home
+        description: DNS Local
+
+    - Wireshark:
+        icon: wireshark.png
+        href: https://wireshark.home:3011
+        description: Analyse
+    
+- Services:
+    - Home-Assistant:
+        icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/home-assistant.webp
+        href: http://homeassistant.home
+        description: Domotique
+        widget:
+            type: homeassistant
+            url: http://192.168.1.39:8123
+            key: {{HOMEPAGE_VAR_HOME_ASSISTANT_KEY}}
+            custom:
+                - state: sensor.tapo_p110m_la_consommation_de_ce_mois_ci
+                  label: conso mensuelle
+                - state: sensor.tapo_p110m_consommation_d_aujourd_hui
+                  label: conso journée
+
+    - Jellyfin:
+        icon: jellyfin.png
+        href: http://jellyfin.home
+        description: Multimédia

@@ -1,0 +1,20 @@
+---
+# https://gethomepage.dev/configs/bookmarks
+
+- Ressources:
+    - Homepage:
+        - icon: homepage.png
+          href: https://gethomepage.dev/configs/
+    - Docker:
+        - icon: docker.png
+          href: https://docs.docker.com/compose/
+    - Nginx:
+        - icon: nginx.png
+          href: https://nginx.org/en/docs/
+    - Pi-hole:
+        - icon: pi-hole.png
+          href: https://docs.pi-hole.net/
+- Socials:
+    - Github:
+        - abbr: GH
+          href: https://github.com/cridenss

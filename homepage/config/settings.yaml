@@ -1,0 +1,19 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: Homelab
+
+favicon: http://192.168.1.39:3000/images/house.png
+
+headerStyle: clean
+
+background: 
+  image: /images/wallpaper.jpg
+  blur: lg # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 50 # 0-100
+
+color: slate
+
+cardBlur: xl # xs, md, etc... see https://tailwindcss.com/docs/backdrop-blur
