@@ -9,9 +9,9 @@ jellyfin/config/
 jellyfin/cache/
 pi-hole/etc-pihole/
 retrogaming/roms/
-homepage/config/
 jellyfin/media/
 npm/data/
-wireshark/config/
+wireshark/config
+homepage/config/logs
 ha-linky/options.json
-tailscale/tailscale-state
+tailscale/tailscale-state/
