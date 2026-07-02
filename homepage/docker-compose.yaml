@@ -1,9 +1,12 @@
 services:
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
+    restart: unless-stopped
     container_name: homepage
     ports:
       - 3000:3000
+    env_file:
+      - /home/baptiste/docker/.env
     volumes:
       - ~/docker/homepage/config:/app/config
       - /home/baptiste/documents/images:/app/public/images
